@@ -5,18 +5,18 @@
 }
   
 body {
-    font-family: 'montseratt', sans-serif;
+    font-family:'MuseoModerno', cursive;
 }
   
 .home{
-    background-image: url('https://images.unsplash.com/photo-1428592953211-077101b2021b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80');
+    background-image: url('https://images.unsplash.com/photo-1485802637741-ca8dcf344e48?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');
     background-size: cover;
     background-position: bottom;
     transition: 0.4 ease;
   }
   
 .home.warm {
-    background-image: url('https://images.unsplash.com/photo-1500320821405-8fc1732209ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-image: url('https://images.unsplash.com/photo-1472120435266-53107fd0c44a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
   }
   
 main {
