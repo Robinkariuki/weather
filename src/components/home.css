@@ -9,14 +9,14 @@ body {
 }
   
 .home{
-    background-image: url('../assets/cold-bg.jpg');
+    background-image: url('https://images.unsplash.com/photo-1428592953211-077101b2021b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80');
     background-size: cover;
     background-position: bottom;
     transition: 0.4 ease;
   }
   
 .home.warm {
-    background-image: url('../assets/warm-bg.jpg');
+    background-image: url('https://images.unsplash.com/photo-1500320821405-8fc1732209ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
   }
   
 main {
