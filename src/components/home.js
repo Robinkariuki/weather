@@ -1,6 +1,10 @@
 import React, {useState}from 'react';
 import './home.css'
-
+const api = {
+    key: "32b862f39b00df774ab0021151ff32df",
+    base: "https://api.openweathermap.org/data/2.5/"
+  }
+  
 
 
 const Home =()=>{
@@ -45,11 +49,7 @@ const Home =()=>{
         <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app') : 'app'}>
         <main>
           <div className="search-box">
-            <input 
-              type="text"
-              className="search-bar"
-              placeholder="Search..."
-              onChange={e => setQuery(e.target.value)}
+            <input type="text"className="search-bar" placeholder="Search..."onChange={e => setQuery(e.target.value)}
               value={query}
               onKeyPress={search}
             />
