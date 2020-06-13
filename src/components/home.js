@@ -4,17 +4,17 @@ import React from 'react';
 
 
 const Home =()=>{
-    const DateBuilder =(d)=>{
-        const months = ['January','February','March','April','May','June','July','August',
+    const dateBuilder =(d)=>{
+        let months = ['January','February','March','April','May','June','July','August',
     'September','October','November','December'];
 
 
-    const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
+    let days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
     
-    const day = days[d.getDay()];
-    const date = d.getDate();
-    const month = months[d.getMonth()];
-    const year = d.getFullYear();
+    let day = days[d.getDay()];
+    let date = d.getDate();
+    let month = months[d.getMonth()];
+    let year = d.getFullYear();
 
     return `${day} ${date} ${month} ${year}`
     }
@@ -23,7 +23,10 @@ const Home =()=>{
 
     return(
         <div>
-
+         {dateBuilder(new Date())}
         </div>
     )
 }
+
+
+export default Home;
