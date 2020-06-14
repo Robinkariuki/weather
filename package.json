@@ -9,7 +9,9 @@
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^3.0.0"
+  },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
